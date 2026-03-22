@@ -2,7 +2,7 @@
 
 Personal notes documenting my journey to AWS Solutions Architect · Marcelo Carrara
 
-> 🎯 **Goal:** Become an AWS Certified Solutions Architect. This repo is my public study log — notes, summaries, and architecture concepts organized by service.
+> 🎯 **Goal:** Become an AWS Certified Solutions Architect. This repo is my public study log, notes, summaries, and architecture concepts organized by service.
 
 ---
 
@@ -40,7 +40,7 @@ aws-studies/
 
 - AWS Official Documentation
 - AWS Skill Builder (free tier)
-- Stephane Maarek — Ultimate AWS Certified Solutions Architect (Udemy)
+- Stephane Maarek, Ultimate AWS Certified Solutions Architect (Udemy)
 - AWS Well-Architected Framework whitepaper
 - AWS Cloud Adoption Framework (CAF) whitepaper
 

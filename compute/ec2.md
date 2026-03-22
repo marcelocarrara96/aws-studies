@@ -1,4 +1,4 @@
-# EC2 — Elastic Compute Cloud
+# EC2, Elastic Compute Cloud
 
 > Virtual servers in the cloud. The backbone of most AWS architectures.
 
@@ -15,9 +15,9 @@ CPU, memory, storage and networking. You pay by the hour or second.
 | Concept | Description |
 |---|---|
 | Instance | A virtual machine running in AWS |
-| AMI | Amazon Machine Image — the "template" used to launch an instance |
+| AMI | Amazon Machine Image, the "template" used to launch an instance |
 | Instance type | Defines CPU, RAM and network (ex: t3.micro, m5.large) |
-| Security Group | Virtual firewall — controls inbound/outbound traffic |
+| Security Group | Virtual firewall, controls inbound/outbound traffic |
 | Key Pair | SSH credentials to access the instance |
 | Elastic IP | Static public IP address you can attach to an instance |
 | User Data | Script that runs automatically when instance launches |
@@ -41,17 +41,17 @@ CPU, memory, storage and networking. You pay by the hour or second.
 
 | Model | Best for | Savings vs On-Demand |
 |---|---|---|
-| On-Demand | Unpredictable workloads, testing | — |
+| On-Demand | Unpredictable workloads, testing | - |
 | Reserved (1 or 3 yr) | Steady, predictable workloads | up to 72% |
 | Savings Plans | Flexible reserved alternative | up to 66% |
 | Spot | Fault-tolerant, flexible workloads | up to 90% |
-| Dedicated Host | Compliance / licensing requirements | — |
+| Dedicated Host | Compliance / licensing requirements | - |
 
 ---
 
 ## 🔒 Security best practices
 
-- Never open port 22 (SSH) to 0.0.0.0/0 — restrict to your IP
+- Never open port 22 (SSH) to 0.0.0.0/0 - restrict to your IP
 - Use IAM roles on instances instead of storing access keys
 - Enable termination protection on production instances
 - Use Security Groups as stateful firewalls (prefer over NACLs for most cases)
@@ -59,7 +59,7 @@ CPU, memory, storage and networking. You pay by the hour or second.
 
 ---
 
-## 🏛️ Architect's view — when to use EC2
+## 🏛️ Architect's view, when to use EC2
 
 **Use EC2 when:**
 - You need full control over the OS or runtime

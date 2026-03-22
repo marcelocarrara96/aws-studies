@@ -1,5 +1,3 @@
-Esse erro é só do GitHub carregando, recarrega a página que resolve!
-Sobre o ec2.md, aqui está um template que eu recomendo — estruturado como um arquiteto pensaria, não só como um estudante:
 markdown# EC2 — Elastic Compute Cloud
 
 > Virtual servers in the cloud. The backbone of most AWS architectures.

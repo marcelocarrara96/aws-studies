@@ -1,4 +1,4 @@
-markdown# EC2 — Elastic Compute Cloud
+# EC2 — Elastic Compute Cloud
 
 > Virtual servers in the cloud. The backbone of most AWS architectures.
 
